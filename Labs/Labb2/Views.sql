@@ -54,6 +54,16 @@ JOIN (
 GROUP BY c.Customer_Id, c.firstname, c.lastname, c.City;
 GO
 
+
+-- Test views
+
+-- Titles per author
+SELECT * FROM TitlesPerAuthor;
+GO
+
+-- Top Customers
 SELECT * FROM TopCustomers
 ORDER BY TotalSpending DESC;
 GO
+
+

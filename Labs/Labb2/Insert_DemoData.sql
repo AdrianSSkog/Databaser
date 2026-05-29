@@ -176,4 +176,14 @@ VALUES
     (12, '9789132153716', 129.00, 1);
 GO
 
+INSERT INTO Employees (firstname, lastname, jobtitle, Store_Id)
+VALUES
+    ('Lisa', 'Fröjd', 'Manager', 1),
+    ('Olof', 'Blom', 'Staff', 1),
+    ('Sofie', 'Jönsson', 'Staff', 1),
+    ('Conrad', 'Petersson', 'Manager', 2),
+    ('Linda', 'Gröning', 'Staff', 2),
+    ('Edith', 'Verne', 'Manager', 3),
+    ('Jules', 'Brelle', 'Staff', 3),
+    ('Jeaque', 'Besson', 'Staff', 3);
 

@@ -97,3 +97,14 @@ CREATE TABLE OrderDetails (
 );
 GO
 
+CREATE TABLE Employees (
+    employee_Id INT NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    jobtitle VARCHAR(50) NOT NULL,
+    Store_Id INT NOT NULL,
+    FOREIGN KEY (Store_id) REFERENCES Stores(Store_ID)
+);
+GO
+
+
