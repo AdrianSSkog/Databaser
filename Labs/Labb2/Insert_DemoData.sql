@@ -186,4 +186,5 @@ VALUES
     ('Edith', 'Verne', 'Manager', 3),
     ('Jules', 'Brelle', 'Staff', 3),
     ('Jeaque', 'Besson', 'Staff', 3);
+GO
 

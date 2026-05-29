@@ -47,7 +47,7 @@ BEGIN
 END;
 GO
 
--- Test stored procedure
+-- Test MoveBooks
 
 EXEC MoveBooks
     @FromLocation = 1,
